@@ -9,5 +9,7 @@ urlpatterns = [
     path('pokedex/<int:pokemon_id>/add_battle/', views.add_battle, name='add_battle'),
 ]
 
+
 team_members = ['Francis', 'Kyro', 'Mara', 'Ann']
+
 

@@ -30,7 +30,11 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV "/Users/annchocopeland/Desktop/seir-7-25/unit-03/merge-test/env"
+=======
+
+>>>>>>> bfc57524cbc5e3113cfb1bc437a5e7b6664d61f3
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
