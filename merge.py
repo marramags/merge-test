@@ -8,3 +8,6 @@ urlpatterns = [
     path('pokedex/<int:pk>/delete/', views.PokemonDelete.as_view(), name='delete_pokemon'),
     path('pokedex/<int:pokemon_id>/add_battle/', views.add_battle, name='add_battle'),
 ]
+
+def leroy():
+    print('jenkins')
